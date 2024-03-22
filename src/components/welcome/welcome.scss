@@ -1,0 +1,78 @@
+.welcome {
+  display: flex;
+  flex-direction: column;
+
+  .discoverBox {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    .discover {
+      display: flex;
+      flex-direction: column;
+      font-family: "Roboto", sans-serif;
+      font-weight: 700px;
+      font-size: 3rem;
+      color: black;
+      margin-right: -3rem;
+
+      span span:first-of-type {
+        color: #fcc21b;
+        padding-right: 0.5rem;
+      }
+    }
+  }
+  .smallTextDiscover {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700px;
+    font-size: 1.5rem;
+    color: black;
+    padding: 2rem 0;
+    margin-right: -3rem;
+  }
+  img {
+    height: 433px;
+    align-self: center;
+    padding-top: 5rem;
+  }
+}
+.unlockBox {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  .unlock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700px;
+    font-size: 3rem;
+    color: black;
+
+    span span:first-of-type {
+      color: #fcc21b;
+      padding-right: 0.5rem;
+    }
+  }
+  .unlockImage {
+    background-image: url("../../assets/images/unlock.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100vw;
+    height: 668px;
+    align-self: center;
+    padding-top: 5rem;
+  }
+  .smallTextUnlock {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700px;
+    font-size: 1.5rem;
+    color: black;
+    padding: 2rem 0;
+  }
+  img {
+    height: 433px;
+    align-self: center;
+    padding-top: 5rem;
+  }
+}

@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 2rem;
+    gap: 1rem;
+
+    .logo{
+        background-image: url('../../assets/images/logo.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 175px;
+        height: 144px;
+    }
+    .title{
+        font-size: 24px;
+        font-weight: 600;
+        color: #000;
+        line-height: 32px;
+        border-top: 5px solid black;
+        flex-grow: 1;
+        display: flex;
+        justify-content: flex-end;
+        gap: 0.5rem;
+        
+        span:first-of-type{
+            color: #FCC21B;
+        }
+    }
+}
