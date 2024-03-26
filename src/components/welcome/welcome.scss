@@ -1,7 +1,6 @@
 .welcome {
   display: flex;
   flex-direction: column;
-
   .discoverBox {
     display: flex;
     flex-direction: row;
@@ -74,5 +73,69 @@
     height: 433px;
     align-self: center;
     padding-top: 5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .welcome {  
+    .discoverBox {
+      flex-direction: column;
+      .discover {
+        font-weight: bold;
+        font-size: 1.7rem;
+      }
+    }
+    .smallTextDiscover {
+      font-weight: normal;
+      font-size: 1.2rem;
+      color: black;
+    }
+    .unlockBox {
+      flex-direction: column-reverse;
+      .unlock{
+        font-weight: bold;
+        font-size: 1.7rem;
+      }
+    }
+    .smallTextUnlock {
+      font-weight: normal;
+      font-size: 1.2rem;
+      color: black;
+    }
+  }
+  .welcome img{
+    height: 200px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1120px) {
+  .welcome {  
+    .discoverBox {
+      flex-direction: column;
+      .discover {
+        font-weight: bold;
+        font-size: 1.7rem;
+      }
+    }
+    .smallTextDiscover {
+      font-weight: normal;
+      font-size: 1.2rem;
+      color: black;
+    }
+    .unlockBox {
+      flex-direction: column;
+      .discover {
+        font-weight: bold;
+        font-size: 1.7rem;
+      }
+    }
+    .smallTextUnlock {
+      font-weight: normal;
+      font-size: 1.2rem;
+      color: black;
+    }
+  }
+  .welcome img{
+    height: 200px;
   }
 }

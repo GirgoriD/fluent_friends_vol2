@@ -1,10 +1,10 @@
 import React from 'react';
-import { ToastContainer, toast, Bounce } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 import "./contactForm.scss";
 import { useForm } from 'react-hook-form';
 import { useRef } from 'react';
-import emailjs from 'emailjs-com'; 
+import emailjs from 'emailjs-com';
+import { ToastContainer, toast } from 'react-toastify'; // Import ToastContainer and toast
+import 'react-toastify/dist/ReactToastify.css'; // Import CSS for toast styles
 
 function ContactForm() {
   const { register, handleSubmit, formState: { errors }, reset } = useForm();
@@ -13,30 +13,16 @@ function ContactForm() {
   const onSubmit = (data) => {
     emailjs.sendForm('service_uxhft8q', 'template_s43kamg', form.current, 'T9fpV7CMEE9plpemb')
       .then((result) => {
-          console.log("Message sent successfully:", result.text);
-          customToastSuccess(); 
+        console.log("Message sent successfully:", result.text);
+        toast.success('Message sent successfully'); // Show success toast
       })
       .catch((error) => {
-          console.error("Error sending message:", error);
-          toast.error('Error sending message. Please try again later.');
+        console.error("Error sending message:", error);
+        toast.error('Error sending message. Please try again later.'); // Show error toast
       });
     reset();
   };
 
-  const customToastSuccess = () => {
-    toast.success('Successfuly sent!', {
-      position: "top-right",
-      autoClose: 5000,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: false,
-      draggable: true,
-      progress: undefined,
-      theme: "colored",
-      transition: Bounce
-    });
-  };
-  
   return (
     <>
       <ToastContainer
@@ -50,7 +36,6 @@ function ContactForm() {
         draggable
         pauseOnHover
         theme="colored"
-        transition={Bounce}
       />
       <form ref={form} onSubmit={handleSubmit(onSubmit)}>
         <div>
@@ -103,4 +88,3 @@ function ContactForm() {
 }
 
 export default ContactForm;
-

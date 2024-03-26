@@ -1,44 +1,53 @@
 .contact{
-    padding: 8rem 0 3rem 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     background-repeat: no-repeat;
+    padding: 8rem 0 3rem 0;
     background-size: contain;
     background-position: bottom;
-    align-items: flex-end;
-    .contactMapAddress{
-        .map{
-            padding-left: 2rem;
-        }
+    .titleContact{
+        padding-left: 4rem;
+        font-size: 24px;
+        font-weight: 600;
     }
-    .contactEmailPhone{
+    .allContactInfo{
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 3rem;
-        .phoneEmail{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-end;
+        .contactMapAddress{
+            .map{
+                padding-left: 2rem;
+            }
+        }
+        .contactEmailPhone{
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding-top: 3rem;
-        }
-    }
-    .contactLogoSocialMedia{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        gap: 3rem;
-        h3{
-            font-size: 1.5rem;
-        }
-        .socialMediaRight{
-            .SocialLogos{
+            gap: 3rem;
+            .phoneEmail{
                 display: flex;
-                flex-direction: row;
-                justify-content: flex-end;
-                gap: 7px;
-                height: 2.3rem;
+                flex-direction: column;
+                align-items: center;
+                padding-top: 3rem;
+            }
+        }
+        .contactLogoSocialMedia{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            h3{
+                font-size: 1.5rem;
+            }
+            .socialMediaRight{
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+                .SocialLogos{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-end;
+                    gap: 7px;
+                    height: 2.3rem;
+                }
             }
         }
     }
@@ -59,4 +68,105 @@ svg {
     padding-bottom: 100%;
     vertical-align: middle;
     overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+    .contact {
+        .allContactInfo {
+            flex-direction: column;
+            gap: 3rem;
+            padding: 0rem 5rem 0rem 0px;
+        }
+        .contactEmailPhone {
+            order: -1;
+            flex-direction: row !important;
+            align-items: flex-start !important;
+        }
+        .titleContact{
+            padding-bottom: 1.5rem;
+            font-size: 1rem;
+        }
+        .contactMapAddress{
+            padding-right: 1.5rem;
+        }
+        .contactMapAddress:before {
+            padding-left: 0rem !important;
+            content: "Visit Us";
+            color: rgb(0, 0, 0);
+            font-size: 2rem;
+            font-weight: bold;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            display: block;
+        }
+        .contactLogoSocialMedia{
+            display: flex;
+            flex-direction: row !important;
+            align-items: center !important;
+            padding-left: 1rem !important;
+            gap: 3rem !important;
+            img{
+                scale: 0.8;
+            }
+            h3{
+                font-size: 1.4rem !important;
+                font-weight: 300px !important;
+            }
+            .socialMediaRight{
+                gap: 0rem !important;
+                align-items: center !important;
+            }
+        }
+    }
+}
+
+  
+  @media (min-width: 769px) and (max-width: 1120px){
+    .contact {
+        .allContactInfo {
+            flex-direction: column;
+            gap: 3rem;
+            padding: 0rem 5rem 0rem 0px;
+        }
+        .contactEmailPhone {
+            order: -1;
+            flex-direction: row !important;
+            align-items: flex-start !important;
+        }
+        .titleContact{
+            padding-bottom: 1.5rem;
+            font-size: 1rem;
+        }
+        .contactMapAddress{
+            padding-right: 1.5rem;
+        }
+        .contactMapAddress:before {
+            padding-left: 0rem !important;
+            content: "Visit Us";
+            color: rgb(0, 0, 0);
+            font-size: 2rem;
+            font-weight: bold;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            display: block;
+        }
+        .contactLogoSocialMedia{
+            display: flex;
+            flex-direction: row !important;
+            align-items: center !important;
+            padding-left: 1rem !important;
+            gap: 3rem !important;
+            img{
+                scale: 0.8;
+            }
+            h3{
+                font-size: 1.4rem !important;
+                font-weight: 300px !important;
+            }
+            .socialMediaRight{
+                gap: 0rem !important;
+                align-items: center !important;
+            }
+        }
+    }
 }
