@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/fluent_friends_vol2/static/css/main.03a83ad3.css",
-    "main.js": "/fluent_friends_vol2/static/js/main.631a0b81.js",
+    "main.css": "/fluent_friends_vol2/static/css/main.1714ba4e.css",
+    "main.js": "/fluent_friends_vol2/static/js/main.28916cba.js",
     "static/js/787.f37de0f7.chunk.js": "/fluent_friends_vol2/static/js/787.f37de0f7.chunk.js",
     "static/media/kidsAtTable.jpg": "/fluent_friends_vol2/static/media/kidsAtTable.b01c23d89f3a675029ae.jpg",
     "static/media/discover.png": "/fluent_friends_vol2/static/media/discover.ea085e4f4c07545905da.png",
     "static/media/unlock.png": "/fluent_friends_vol2/static/media/unlock.d1c469d38b3868a44386.png",
     "index.html": "/fluent_friends_vol2/index.html",
     "static/media/wave.svg": "/fluent_friends_vol2/static/media/wave.5699fc047d6fd05985edfcd84687231c.svg",
-    "main.03a83ad3.css.map": "/fluent_friends_vol2/static/css/main.03a83ad3.css.map",
-    "main.631a0b81.js.map": "/fluent_friends_vol2/static/js/main.631a0b81.js.map",
+    "main.1714ba4e.css.map": "/fluent_friends_vol2/static/css/main.1714ba4e.css.map",
+    "main.28916cba.js.map": "/fluent_friends_vol2/static/js/main.28916cba.js.map",
     "787.f37de0f7.chunk.js.map": "/fluent_friends_vol2/static/js/787.f37de0f7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.03a83ad3.css",
-    "static/js/main.631a0b81.js"
+    "static/css/main.1714ba4e.css",
+    "static/js/main.28916cba.js"
   ]
 }
