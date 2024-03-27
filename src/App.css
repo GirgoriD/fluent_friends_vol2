@@ -1,13 +1,11 @@
 @media screen and (max-width: 768px) {
     .App {  
-      width: 180vw;
       overflow-x: hidden;
     }
   }
   
   @media (min-width: 769px) and (max-width: 1120px) {
     .App {  
-        width:180vw;
         overflow-x: hidden;
       }
   }

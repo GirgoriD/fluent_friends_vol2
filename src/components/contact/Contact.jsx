@@ -52,7 +52,7 @@ const Contact = () => {
         </div>
         <div className="contactLogoSocialMedia">
           <div className="socialMediaRight">
-            <img src={logo} alt="logo" />
+            <img className="mainBuisnessLogo" src={logo} alt="logo" />
             <div className="SocialLogos">
               <img src={insta} alt="insta" />
               <img src={facebook} alt="facebook" />

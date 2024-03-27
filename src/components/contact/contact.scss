@@ -74,26 +74,39 @@ svg {
     .contact {
         .allContactInfo {
             flex-direction: column;
-            gap: 3rem;
-            padding: 0rem 5rem 0rem 0px;
-        }
-        .contactEmailPhone {
-            order: -1;
-            flex-direction: row !important;
-            align-items: flex-start !important;
+            gap: 1.5rem;
+            padding: 0rem 1rem 0rem 0rem;
+            .contactEmailPhone {
+                gap: 1rem;
+                order: -1;
+                flex-direction: row;
+                align-items: flex-start;
+                .phoneEmail{
+                    img{
+                        height: 0.8rem;
+                    }
+                    a{
+                        font-size: 0.7rem;
+                    }
+                }
+            }
         }
         .titleContact{
-            padding-bottom: 1.5rem;
-            font-size: 1rem;
+            padding-left: 2rem;
+            padding-bottom: 0.5rem;
+            font-size: 0.8rem;
         }
         .contactMapAddress{
-            padding-right: 1.5rem;
+            h3{
+                font-size: 0.8rem;
+            }
+            padding-right: 2.5rem;
         }
         .contactMapAddress:before {
             padding-left: 0rem !important;
             content: "Visit Us";
             color: rgb(0, 0, 0);
-            font-size: 2rem;
+            font-size: 1.5rem;
             font-weight: bold;
             margin-top: 1rem;
             margin-bottom: 2rem;
@@ -104,17 +117,20 @@ svg {
             flex-direction: row !important;
             align-items: center !important;
             padding-left: 1rem !important;
-            gap: 3rem !important;
-            img{
-                scale: 0.8;
-            }
+            gap: 1rem !important;
             h3{
-                font-size: 1.4rem !important;
+                font-size: 0.8rem !important;
                 font-weight: 300px !important;
             }
             .socialMediaRight{
-                gap: 0rem !important;
+                gap: 0.5rem !important;
                 align-items: center !important;
+                .mainBuisnessLogo{
+                    height: 6.5rem;
+                }
+                .SocialLogos{
+                    height: 1.5rem !important;
+                }
             }
         }
     }
