@@ -1,4 +1,6 @@
 import kidsAtTable from "./assets/images/kidsAtTable.jpg";
+import chubbyKid from "./assets/images/chubbyKid.jpg";
+import roomPhoto from "./assets/images/roomPhoto.jpg";
 
 const data = [
     {
@@ -9,12 +11,12 @@ const data = [
     {
         title: 'My Expertise',
         desc: 'Welcome to our speech therapy practice! I’m Marine Balyan, and I bring 23 years of experience in the field of speech therapy. As a dedicated professional, I hold an Armenian degree in Speech Therapy and am also a licensed Advanced Specialist in Autism. My journey began with working from home, but now I’m proud to have my own office where I continue to make a difference. Over the years, I’ve had the privilege of helping numerous children overcome their stuttering and speech delays. The joy of witnessing their progress and the satisfaction of our many happy and contented clients drive my passion for this work.',
-        img: kidsAtTable,
+        img: chubbyKid,
     },
     {
         title: 'Unlocking Communication',
         desc: 'Whether you’re seeking support for yourself or a loved one, I’m here to provide personalized care and guidance. Feel free to reach out if you need more information or have any questions. Together, let’s unlock the power of communication!',
-        img: kidsAtTable,
+        img: roomPhoto,
     },
 ];
 
