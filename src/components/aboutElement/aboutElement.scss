@@ -26,3 +26,23 @@
         }
     }
 }
+
+@media screen and (max-width: 1120px) {
+    .aboutElement{
+        width: 80vw;
+        border-radius: 30px;
+        h2{  
+            font-size: 0.7rem;
+            text-align: center;
+        }
+        p{
+            font-size: 0.6rem !important;
+            text-align: center !important;
+        }
+        img{
+            width: 18vw;
+            height: 18vw;
+            border: 6px solid #9e9e9e;
+        }
+    }
+}

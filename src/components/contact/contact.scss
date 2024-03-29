@@ -70,9 +70,21 @@ svg {
     overflow: hidden;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 429px) {
+    .contactEmailPhone {
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 0px !important;
+        .phoneEmail{
+            padding-top: 0.5rem !important;
+        }
+    }
+}
+
+@media screen and (max-width: 1120px) {
     .contact {
         .allContactInfo {
+            align-items: center;
             flex-direction: column;
             gap: 1.5rem;
             padding: 0rem 1rem 0rem 0rem;
@@ -82,11 +94,15 @@ svg {
                 flex-direction: row;
                 align-items: flex-start;
                 .phoneEmail{
+                    padding-top: 5.5rem;
                     img{
                         height: 0.8rem;
                     }
                     a{
                         font-size: 0.7rem;
+                    }
+                    h2{
+                        margin: 0;
                     }
                 }
             }
@@ -100,7 +116,6 @@ svg {
             h3{
                 font-size: 0.8rem;
             }
-            padding-right: 2.5rem;
         }
         .contactMapAddress:before {
             padding-left: 0rem !important;
@@ -131,57 +146,6 @@ svg {
                 .SocialLogos{
                     height: 1.5rem !important;
                 }
-            }
-        }
-    }
-}
-
-  
-  @media (min-width: 769px) and (max-width: 1120px){
-    .contact {
-        .allContactInfo {
-            flex-direction: column;
-            gap: 3rem;
-            padding: 0rem 5rem 0rem 0px;
-        }
-        .contactEmailPhone {
-            order: -1;
-            flex-direction: row !important;
-            align-items: flex-start !important;
-        }
-        .titleContact{
-            padding-bottom: 1.5rem;
-            font-size: 1rem;
-        }
-        .contactMapAddress{
-            padding-right: 1.5rem;
-        }
-        .contactMapAddress:before {
-            padding-left: 0rem !important;
-            content: "Visit Us";
-            color: rgb(0, 0, 0);
-            font-size: 2rem;
-            font-weight: bold;
-            margin-top: 1rem;
-            margin-bottom: 2rem;
-            display: block;
-        }
-        .contactLogoSocialMedia{
-            display: flex;
-            flex-direction: row !important;
-            align-items: center !important;
-            padding-left: 1rem !important;
-            gap: 3rem !important;
-            img{
-                scale: 0.8;
-            }
-            h3{
-                font-size: 1.4rem !important;
-                font-weight: 300px !important;
-            }
-            .socialMediaRight{
-                gap: 0rem !important;
-                align-items: center !important;
             }
         }
     }
