@@ -63,14 +63,14 @@ form {
       }
     }
 
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 427px) {
+  form{
+    scale: 1 !important;
+  }
+  } 
+    
+@media screen and (max-width: 1120px) {
       form{
         scale: 0.8;
       }
-  }
-
-  @media (min-width: 769px) and (max-width: 1120px) {
-    form{
-      scale: 0.8;
-    }
   }

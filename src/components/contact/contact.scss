@@ -70,11 +70,16 @@ svg {
     overflow: hidden;
 }
 
-@media screen and (max-width: 429px) {
+@media screen and (max-width: 427px) {
     .contactEmailPhone {
         flex-direction: column !important;
         align-items: center !important;
         gap: 0px !important;
+        .phoneEmail{
+            a{
+                font-size: 0.9rem !important;
+            }
+        }
         .phoneEmail{
             padding-top: 0.5rem !important;
         }

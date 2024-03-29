@@ -30,7 +30,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1120px) {
     .header{
         .logo{
              width: 100px;
@@ -43,17 +43,3 @@
         }
      }
 }
-  
-  @media (min-width: 769px) and (max-width: 1120px) {
-    .header{
-        .logo{
-             width: 100px;
-             height: 89px;
-        }
-        .title{
-            font-size: 18px;
-            gap: 0.4rem;
-            border-top: 3px solid black;
-        }
-     }
-  }
