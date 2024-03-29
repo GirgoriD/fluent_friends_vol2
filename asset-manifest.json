@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fluent_friends_vol2/static/css/main.db834228.css",
+    "main.css": "/fluent_friends_vol2/static/css/main.cd1fbe1b.css",
     "main.js": "/fluent_friends_vol2/static/js/main.28916cba.js",
     "static/js/787.f37de0f7.chunk.js": "/fluent_friends_vol2/static/js/787.f37de0f7.chunk.js",
     "static/media/kidsAtTable.jpg": "/fluent_friends_vol2/static/media/kidsAtTable.b01c23d89f3a675029ae.jpg",
@@ -8,12 +8,12 @@
     "static/media/unlock.png": "/fluent_friends_vol2/static/media/unlock.d1c469d38b3868a44386.png",
     "index.html": "/fluent_friends_vol2/index.html",
     "static/media/wave.svg": "/fluent_friends_vol2/static/media/wave.5699fc047d6fd05985edfcd84687231c.svg",
-    "main.db834228.css.map": "/fluent_friends_vol2/static/css/main.db834228.css.map",
+    "main.cd1fbe1b.css.map": "/fluent_friends_vol2/static/css/main.cd1fbe1b.css.map",
     "main.28916cba.js.map": "/fluent_friends_vol2/static/js/main.28916cba.js.map",
     "787.f37de0f7.chunk.js.map": "/fluent_friends_vol2/static/js/787.f37de0f7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db834228.css",
+    "static/css/main.cd1fbe1b.css",
     "static/js/main.28916cba.js"
   ]
 }
